@@ -1,0 +1,105 @@
+html {
+   text-align: center;
+}
+
+body {
+    background-image: url(../images/texture.jpg);
+}
+
+.btn1 {
+    width: 50%;
+    background-image: url(../images/btntexture.jpg);
+    margin-left: 25%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    font-size: 120%;
+}
+
+.btn1:hover {
+    opacity: 0.8;
+}
+
+h1, h2 {
+    font-family: 'Caesar Dressing', cursive;
+}
+
+ul>li {
+    font-family: 'Caesar Dressing', cursive;
+}
+
+p {
+    width: 90%;
+    font-size: 100%;
+    margin-left: 5%;
+    line-height: 1.4;
+}
+
+img {
+    width: 15%;
+    display: inline-block;
+    margin-left: 80%;
+}
+
+.score {
+    width: 30%;
+    background-image: url(../images/btntexture.jpg);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    font-size: 90%;
+    display: inline-block;
+    position: absolute;
+    top: 1%;
+}
+
+.arrange {
+    width: 80%;
+    background-image: url(../images/btntexture.jpg);
+    margin-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    font-size: 140%;
+    margin-bottom: 10%;
+}
+
+article {
+    margin-bottom: 25%;
+}
+
+.wronganswer {
+     width: 80%;
+    background-image: url(../images/btntexture.jpg);
+    margin-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    font-size: 140%;
+    margin-bottom: 10%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+.answer {
+     width: 80%;
+    background-image: url(../images/btntexture.jpg);
+    margin-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    font-size: 140%;
+    margin-bottom: 10%;
+    margin-top: 30%;
+    margin-bottom: 50%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Caesar Dressing', cursive;
+    padding-left: 10%;
+    padding-right: 11%;
+    margin-right: 25%;
+   
+}

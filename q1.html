@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>KOM GODT I GANG MED BRACKETS</title>
+        <meta name="description" content="En interaktiv guide til at komme godt i gang med Brackets.">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing" rel="stylesheet">
+    </head>
+    <body>
+      
+<h2 class="score">SCORE: 0</h2>
+<img src="images/camera.png" alt="Camera Logo">        
+
+<h1>QUESTION 1</h1>
+<h2>Arrange the empires<br> based on their size</h2>
+
+        
+<ul id="sortable">
+  <li class="ui-state-default arrange"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>ROMAN EMPIRE</li>
+  <li class="ui-state-default arrange"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>PERSAN EMPIRE</li>
+  <li class="ui-state-default arrange"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>OTOMAN EMPIRE</li>
+</ul>             
+        
+<a class="btn1" href="q1wrong.html">SUBMIT</a>
+
+    </body>
+</html>
+
+    <script src="script/sort.js"></script>
+    <script src="script/sortable.js"></script>
+<script>
+  $( function() {
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+  } );
+  </script>
